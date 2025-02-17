@@ -11,12 +11,12 @@ npm install tg-user-validation
 ## Usage
 
 ```typescript
-import validateUser from 'validate-user';
+import validate_user from "tg-user-validation";
 
 const initData = window.Telegram.WebApp.initData;
 const BOT_TOKEN = 'your-telegram-bot-token';
 
-const userData = validateUser(initData, BOT_TOKEN);
+const userData = validate_user(initData, BOT_TOKEN);
 
 if (userData) {
     console.log('User data is valid:', userData);
