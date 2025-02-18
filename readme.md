@@ -56,3 +56,6 @@ validateUser(initData: { user: string }, BOT_TOKEN: string): object | boolean;
 - Computes the HMAC-SHA-256 hash using the bot token.
 - Compares the computed hash with the received hash.
 - If they match, returns the decoded user object; otherwise, returns `false`.
+
+## License  
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.  
