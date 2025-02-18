@@ -36,7 +36,7 @@ if (userData) {
 ## Function Signature
 
 ```typescript
-validateUser(initData: { user: string }, BOT_TOKEN: string): object | boolean;
+validate_user(initData: initData, BOT_TOKEN: string): object | boolean;
 ```
 
 ### Parameters
