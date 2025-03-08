@@ -6,8 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["telegram", "user-validation", "bot", "npm-package"],
+  "author": "Bojan Kartal boankartal@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pawwvw/tg-user-validation"
+  },
   "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
