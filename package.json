@@ -1,12 +1,17 @@
 {
   "name": "tg-user-validation",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["telegram", "user-validation", "bot", "npm-package"],
+  "keywords": [
+    "telegram",
+    "user-validation",
+    "bot",
+    "npm-package"
+  ],
   "author": "Bojan Kartal boankartal@gmail.com",
   "repository": {
     "type": "git",
