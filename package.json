@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && tsc",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "telegram",
@@ -21,6 +23,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@types/node": "^22.13.4",
+    "rimraf": "^6.0.1",
     "typescript": "^5.7.3"
   }
 }
